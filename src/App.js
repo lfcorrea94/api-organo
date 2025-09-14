@@ -54,7 +54,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    console.log('Colaborador:', colaborador)
+   // console.log('Colaborador:', colaborador)
     setColaboradores([...colaboradores, colaborador])
   }
 
@@ -70,7 +70,7 @@ function App() {
       {times.map(time => {
 
         const filtrados = colaboradores.filter(colaborador => colaborador.time === time.nome);
-        console.log('Comparando:', time.nome, filtrados);
+       // console.log('Comparando:', time.nome, filtrados);
 
         return (
           <Time 

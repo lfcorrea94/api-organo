@@ -23,7 +23,8 @@ const Formulario = (props) => {
         setNome('');
         setCargo('');
         setImagem('');
-        setTime(props.times[0] || ''); // resetar para o default após submit
+        //setTime(props.times[0] || ''); // resetar para o default após submit
+        setTime(''); // resetar para vazio após submit
 
     }
 

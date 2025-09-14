@@ -19,6 +19,7 @@ const Time = (props) => {
                 {props.colaboradores.map(
                     colaborador => <Colaborador
                         key={colaborador.nome} // ou use colaborador.id se existir
+                        corDeFundo={props.corPrimaria}
                         nome={colaborador.nome}
                         cargo={colaborador.cargo}
                         imagem={colaborador.imagem} >
